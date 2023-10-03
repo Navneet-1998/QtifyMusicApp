@@ -2,6 +2,7 @@ import React from "react";
 import "./qtify.css";
 import NavbarSection from "./navbarSection/navbar";
 import HeroImage from "./heroSection/heroImage";
+import CardSection from "./cardSection/card";
 
 function Qtify() {
   return (
@@ -10,6 +11,7 @@ function Qtify() {
         {" "}
         <NavbarSection />
         <HeroImage />
+        <CardSection/>
       </body>
     </>
   );
