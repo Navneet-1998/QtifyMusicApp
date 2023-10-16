@@ -1,0 +1,21 @@
+.vl {
+    border-left: 1px solid rgba(78, 81, 81, 0.956);
+    height: 38px;
+}
+
+.searching {
+    width: 100%;
+}
+
+.imging {
+    border: 20px solid black;
+}
+
+.buttonboth {
+    width: 6%;
+    height: 80%;
+}
+
+.lefter:hover {
+    color: lawngreen;
+}
