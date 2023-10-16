@@ -2,7 +2,7 @@ import React from "react";
 import "./qtify.css";
 import NavbarSection from "./navbarSection/navbar";
 import HeroImage from "./heroSection/heroImage";
-import CardCarousel from "./cardCarouselSection/cardCarousel"
+import {CardCarousel, CardCarousel2} from "./cardCarouselSection/cardCarousel";
 
 
 function Qtify() {
@@ -14,6 +14,7 @@ function Qtify() {
         <NavbarSection />
         <HeroImage />
         <CardCarousel/>
+        <CardCarousel2/>
       </body>
     </>
   );
