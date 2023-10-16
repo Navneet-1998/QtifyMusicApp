@@ -3,6 +3,7 @@ import "./qtify.css";
 import NavbarSection from "./navbarSection/navbar";
 import HeroImage from "./heroSection/heroImage";
 import {CardCarousel, CardCarousel2} from "./cardCarouselSection/cardCarousel";
+import SongsFilter from "./filterSection/songsFilter";
 
 
 function Qtify() {
@@ -15,6 +16,7 @@ function Qtify() {
         <HeroImage />
         <CardCarousel/>
         <CardCarousel2/>
+        <SongsFilter/>
       </body>
     </>
   );
